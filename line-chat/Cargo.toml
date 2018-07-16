@@ -1,0 +1,10 @@
+[package]
+name = "line-chat"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
+
+[dependencies]
+tokio = "0.1"
+tokio-io = "0.1"
+futures = "0.1"
+bytes = "0.4"

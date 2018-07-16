@@ -1,0 +1,15 @@
+[package]
+name = "rn_rust_bin"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
+
+[lib]
+name = "rn_rust_bin"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+libc = "0.2"
+jni = { version = "0.5.1", optional = true, default-features = false }
+
+[features]
+default = ["jni"]

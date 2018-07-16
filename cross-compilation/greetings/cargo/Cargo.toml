@@ -1,0 +1,10 @@
+[package]
+name = "cargo"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
+
+[lib]
+name = "greetings"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]

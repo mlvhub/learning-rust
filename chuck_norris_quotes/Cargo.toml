@@ -1,0 +1,13 @@
+[package]
+name = "chuck_norris_quotes"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
+
+[dependencies]
+actix = "0.5.7"
+actix-web = "0.6"
+reqwest = "0.8.5"
+serde = "1.0.63"
+serde_derive = "1.0.63"
+serde_json = "1.0.18"
+failure = "0.1.1"

@@ -1,0 +1,3 @@
+rootProject.name = 'rn_rust_app'
+
+include ':app'

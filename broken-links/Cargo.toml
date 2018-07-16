@@ -1,0 +1,9 @@
+[package]
+name = "broken-links"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
+
+[dependencies]
+reqwest = "0.8.6"
+url = "1.7.0"
+select = "0.4.2"

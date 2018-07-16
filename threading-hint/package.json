@@ -1,0 +1,21 @@
+{
+  "name": "threading-hint",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Miguel Lopez <miguell@cakesolutions.net>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-hello": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-rebuild": "^1.7.3",
+    "neon-cli": "^0.1.17"
+  },
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w neon-hello",
+    "postinstall": "npm run rebuild"
+  }
+}

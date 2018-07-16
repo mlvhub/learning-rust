@@ -1,0 +1,6 @@
+[package]
+name = "messenger"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
+
+[dependencies]
