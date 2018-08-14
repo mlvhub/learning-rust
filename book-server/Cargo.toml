@@ -1,5 +1,5 @@
 [package]
-name = "book-server"
+name = "bookserver"
 version = "0.1.0"
 authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
 
