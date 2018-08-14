@@ -1,0 +1,1 @@
+/Users/miguellopez/Documents/rust-projects/learning-rust/network_programming_book/factorial/target/debug/libfactorial.rmeta: /Users/miguellopez/Documents/rust-projects/learning-rust/network_programming_book/factorial/src/lib.rs
