@@ -1,0 +1,7 @@
+[package]
+name = "yew_todo"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguell@cakesolutions.net>"]
+
+[dependencies]
+yew = "0.4.0"
