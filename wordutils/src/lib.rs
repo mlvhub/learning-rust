@@ -1,8 +1,28 @@
+#![feature(test)]
+extern crate test;
 
 fn words(phrase: &str) -> std::str::SplitWhitespace {
     return phrase.split_whitespace()
 }
 
+/// Given a string, extract the initials.
+/// 
+/// Initials are composed of the first letter of each word, capitalized.
+/// They are then joined together with no spaces.
+/// 
+/// # Example
+/// 
+/// ```rust
+/// let out = wordutils::initials("hello beautiful world");
+/// assert_eq!(out, "HBW");
+/// ```
+///
+/// # Panics
+///
+/// ```rust,should_panic
+/// let out = wordutils::initials("");
+/// assert_eq!(out, "hello");
+/// ```
 pub fn initials(phrase: &str) -> String {
     words(phrase).map(|word|
                       word.chars().next().unwrap()
@@ -12,6 +32,13 @@ pub fn initials(phrase: &str) -> String {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use test::Bencher;
+
+    #[bench]
+    fn bench_initials(b: &mut Bencher) {
+    let input = "I have measured my life in coffee spoons";
+        b.iter(|| initials(input));
+    }
 
     #[test]
     fn test_words() {

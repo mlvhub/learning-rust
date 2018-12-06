@@ -1,0 +1,6 @@
+[package]
+name = "rhell"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguel.lopez@bamtechmedia.com>"]
+
+[dependencies]
