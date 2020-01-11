@@ -1,1 +1,0 @@
-/Users/miguellopez/Documents/rust-projects/learning-rust/network_programming_book/collatz/target/debug/collatz.dSYM: /Users/miguellopez/Documents/rust-projects/learning-rust/network_programming_book/collatz/src/main.rs
