@@ -1,0 +1,8 @@
+[package]
+name = "gitaid"
+version = "0.1.0"
+authors = ["Miguel Lopez <miguel.lopez@disneystreaming.com>"]
+
+[dependencies]
+quicli = "0.4"
+structopt = "0.2"
